@@ -10,7 +10,7 @@ app = FastAPI()
 #uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 #Desktop\python
 #env\Scripts\activate
-
+#uvicorn pdf_parser_api:app --reload --port 8000
 
 # Autoriser l'appel depuis Supabase Edge Function ou local
 app.add_middleware(
